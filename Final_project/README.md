@@ -8,3 +8,4 @@ This technique plays an important role in a wide range of applications such as i
 * There are four directories, **model_python**, **DnCNN_Accelerator**, **ESP**, and **patterns**.  
 * The folder **patterns** includes the pattern used in **DnCNN_Accelerator** and **ESP**.
 * If you want to run the whole process from training model to ESP integration, please run in the following order.
+* **model_Python** -> **DnCNN_Accelerator** -> **ESP**
