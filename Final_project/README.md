@@ -5,8 +5,13 @@ Image denoising is the technique which to estimate the original image by suppres
 This technique plays an important role in a wide range of applications such as image restoration, visual tracking, image registration, image segmentation, where obtaining the original image content is crucial for strong performance.
 
 ---
-* There are four directories, **model_python**, **DnCNN_Accelerator**, **ESP**, **patterns**, and **specs**.  
-* The folder **patterns** includes the pattern used in **DnCNN_Accelerator** and **ESP**.
+* There are four directories, 
+**model_python**, 
+**DnCNN_Accelerator**, 
+**ESP**, 
+[**patterns**](https://github.com/Koyama-Tsubasa/VLSI_System_Design/tree/main/Final_project/patterns), 
+and **specs**.  
+* The folder [**patterns**](https://github.com/Koyama-Tsubasa/VLSI_System_Design/tree/main/Final_project/patterns) includes the pattern used in **DnCNN_Accelerator** and **ESP**.
 * The folder **specs** includes some specs from the previous works.
 * If you want to run the whole process from training model to ESP integration, please run in the following order.
 * **model_Python** -> **DnCNN_Accelerator** -> **ESP**
