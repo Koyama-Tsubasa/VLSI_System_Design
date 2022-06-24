@@ -5,4 +5,5 @@ Image denoising is the technique which to estimate the original image by suppres
 This technique plays an important role in a wide range of applications such as image restoration, visual tracking, image registration, image segmentation, where obtaining the original image content is crucial for strong performance.
 
 ---
-There are four directories, **model_python**, **DnCNN_Accelerator**, **ESP**, and **patterns**.
+There are four directories, **model_python**, **DnCNN_Accelerator**, **ESP**, and **patterns**.  
+The folder **patterns** includes the pattern used in **DnCNN_Accelerator** and **ESP**.
