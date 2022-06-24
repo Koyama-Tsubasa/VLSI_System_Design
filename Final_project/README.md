@@ -5,5 +5,5 @@ Image denoising is the technique which to estimate the original image by suppres
 This technique plays an important role in a wide range of applications such as image restoration, visual tracking, image registration, image segmentation, where obtaining the original image content is crucial for strong performance.
 
 ---
-* source_code includes what we used in this project.
+* source_code includes what we used in this project
 * spec includes the spec of previous works
