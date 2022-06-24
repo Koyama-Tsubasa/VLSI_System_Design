@@ -11,7 +11,7 @@ This technique plays an important role in a wide range of applications such as i
 **ESP**, 
 [**patterns**](https://github.com/Koyama-Tsubasa/VLSI_System_Design/tree/main/Final_project/patterns), 
 and [**specs**](https://github.com/Koyama-Tsubasa/VLSI_System_Design/tree/main/Final_project/specs).  
-* The folder [**patterns**](https://github.com/Koyama-Tsubasa/VLSI_System_Design/tree/main/Final_project/patterns) includes the pattern used in **DnCNN_Accelerator** and **ESP**.
-* The folder [**specs**](https://github.com/Koyama-Tsubasa/VLSI_System_Design/tree/main/Final_project/specs) includes some specs from the previous works.
+* The folder **patterns** includes the pattern used in **DnCNN_Accelerator** and **ESP**.
+* The folder **specs** includes some specs from the previous works.
 * If you want to run the whole process from training model to ESP integration, please run in the following order.
-* **model_Python** -> [**DnCNN_Accelerator**](https://github.com/Koyama-Tsubasa/VLSI_System_Design/tree/main/Final_project/DnCNN_Accelerator) -> **ESP**
+* **model_Python** -> **DnCNN_Accelerator** -> **ESP**
