@@ -1,0 +1,158 @@
+ 
+****************************************
+Report : area
+Design : DnCNN
+Version: R-2020.09
+Date   : Thu Jun 23 15:39:47 2022
+****************************************
+
+Library(s) Used:
+
+    slow_vdd1v2 (File: /theda21_2/library/GPDK045/cur/gsclib045/db/slow_vdd1v2_basicCells.db)
+
+Number of ports:                         8735
+Number of nets:                         50985
+Number of cells:                        37215
+Number of combinational cells:          33162
+Number of sequential cells:              3938
+Number of macros/black boxes:               0
+Number of buf/inv:                       2873
+Number of references:                     138
+
+Combinational area:              84831.853592
+Buf/Inv area:                     2819.790063
+Noncombinational area:           23209.146518
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                108041.000110
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area             Local cell area
+                                  --------------------  ------------------------------ 
+Hierarchical cell                 Absolute     Percent  Combi-      Noncombi-   Black-
+                                  Total        Total    national    national    boxes   Design
+--------------------------------  -----------  -------  ----------  ----------  ------  --------------------------------
+DnCNN                             108041.0001    100.0  14451.8943  13972.4103  0.0000  DnCNN
+add_0_root_add_0_root_add_160_2       34.8840      0.0     34.8840      0.0000  0.0000  DnCNN_DW01_add_18_DW01_add_42
+add_168                               56.0880      0.1     56.0880      0.0000  0.0000  DnCNN_DW01_inc_0_DW01_inc_5
+add_338_S4                           194.2560      0.2    194.2560      0.0000  0.0000  DnCNN_DW01_add_50
+add_338_S4_I2                        194.2560      0.2    194.2560      0.0000  0.0000  DnCNN_DW01_add_49
+add_338_S4_I3                        194.2560      0.2    194.2560      0.0000  0.0000  DnCNN_DW01_add_48
+add_338_S4_I4                        194.2560      0.2    194.2560      0.0000  0.0000  DnCNN_DW01_add_47
+add_339_S4                           194.2560      0.2    194.2560      0.0000  0.0000  DnCNN_DW01_add_46
+add_339_S4_I2                        194.2560      0.2    194.2560      0.0000  0.0000  DnCNN_DW01_add_45
+add_339_S4_I3                        194.2560      0.2    194.2560      0.0000  0.0000  DnCNN_DW01_add_44
+add_339_S4_I4                        194.2560      0.2    194.2560      0.0000  0.0000  DnCNN_DW01_add_43
+add_340_S4                           194.2560      0.2    194.2560      0.0000  0.0000  DnCNN_DW01_add_42
+add_340_S4_I2                        194.2560      0.2    194.2560      0.0000  0.0000  DnCNN_DW01_add_41
+add_340_S4_I3                        194.2560      0.2    194.2560      0.0000  0.0000  DnCNN_DW01_add_40
+add_340_S4_I4                        194.2560      0.2    194.2560      0.0000  0.0000  DnCNN_DW01_add_39
+add_341_S4                           194.2560      0.2    194.2560      0.0000  0.0000  DnCNN_DW01_add_38
+add_341_S4_I2                        194.2560      0.2    194.2560      0.0000  0.0000  DnCNN_DW01_add_37
+add_341_S4_I3                        194.2560      0.2    194.2560      0.0000  0.0000  DnCNN_DW01_add_36
+add_341_S4_I4                        194.2560      0.2    194.2560      0.0000  0.0000  DnCNN_DW01_add_35
+mult_346_S4                         3076.2901      2.8   3076.2901      0.0000  0.0000  DnCNN_DW_mult_uns_36
+mult_346_S4_I2                      3070.4761      2.8   3070.4761      0.0000  0.0000  DnCNN_DW_mult_uns_37
+mult_346_S4_I3                      3063.9781      2.8   3063.9781      0.0000  0.0000  DnCNN_DW_mult_uns_38
+mult_346_S4_I4                      3071.1601      2.8   3071.1601      0.0000  0.0000  DnCNN_DW_mult_uns_39
+mult_347_S4                         3049.2721      2.8   3049.2721      0.0000  0.0000  DnCNN_DW_mult_uns_40
+mult_347_S4_I2                      3070.8181      2.8   3070.8181      0.0000  0.0000  DnCNN_DW_mult_uns_41
+mult_347_S4_I3                      3127.5901      2.9   3127.5901      0.0000  0.0000  DnCNN_DW_mult_uns_42
+mult_347_S4_I4                      3049.9561      2.8   3049.9561      0.0000  0.0000  DnCNN_DW_mult_uns_43
+mult_348_S4                         3123.8281      2.9   3123.8281      0.0000  0.0000  DnCNN_DW_mult_uns_44
+mult_348_S4_I2                      3082.4461      2.9   3082.4461      0.0000  0.0000  DnCNN_DW_mult_uns_45
+mult_348_S4_I3                      3100.9141      2.9   3100.9141      0.0000  0.0000  DnCNN_DW_mult_uns_46
+mult_348_S4_I4                      3038.3281      2.8   3038.3281      0.0000  0.0000  DnCNN_DW_mult_uns_47
+mult_349_S4                         3079.8298      2.9   3079.8298      0.0000  0.0000  DnCNN_DW_mult_uns_48
+mult_349_S4_I2                      3066.0301      2.8   3066.0301      0.0000  0.0000  DnCNN_DW_mult_uns_49
+mult_349_S4_I3                      3074.9221      2.8   3074.9221      0.0000  0.0000  DnCNN_DW_mult_uns_50
+mult_349_S4_I4                      3069.4501      2.8   3069.4501      0.0000  0.0000  DnCNN_DW_mult_uns_51
+pea                                27202.3386     25.2    895.6980   3064.3201  0.0000  PEA
+pea/add_0_root_r538                  164.1600      0.2    164.1600      0.0000  0.0000  PEA_DW01_add_6_DW01_add_50
+pea/add_0_root_r540                  164.1600      0.2    164.1600      0.0000  0.0000  PEA_DW01_add_4_DW01_add_48
+pea/add_0_root_r542                  164.1600      0.2    164.1600      0.0000  0.0000  PEA_DW01_add_2_DW01_add_46
+pea/add_0_root_r544                  164.1600      0.2    164.1600      0.0000  0.0000  PEA_DW01_add_0_DW01_add_44
+pea/add_1_root_r538                  164.1600      0.2    164.1600      0.0000  0.0000  PEA_DW01_add_7_DW01_add_51
+pea/add_1_root_r540                  164.1600      0.2    164.1600      0.0000  0.0000  PEA_DW01_add_5_DW01_add_49
+pea/add_1_root_r542                  164.1600      0.2    164.1600      0.0000  0.0000  PEA_DW01_add_3_DW01_add_47
+pea/add_1_root_r544                  164.1600      0.2    164.1600      0.0000  0.0000  PEA_DW01_add_1_DW01_add_45
+pea/pe00                            1827.9900      1.7    124.4880    514.3680  0.0000  PE_11
+pea/pe00/add_0_root_add_512_2         92.3400      0.1     92.3400      0.0000  0.0000  PE_11_DW01_add_0_DW01_add_40
+pea/pe00/add_1_root_add_512_2         87.2100      0.1     87.2100      0.0000  0.0000  PE_11_DW01_add_1_DW01_add_41
+pea/pe00/mult_507                    336.5280      0.3    336.5280      0.0000  0.0000  PE_11_DW_mult_tc_2_DW_mult_tc_35
+pea/pe00/mult_508                    336.5280      0.3    336.5280      0.0000  0.0000  PE_11_DW_mult_tc_1_DW_mult_tc_34
+pea/pe00/mult_509                    336.5280      0.3    336.5280      0.0000  0.0000  PE_11_DW_mult_tc_0_DW_mult_tc_11
+pea/pe01                            1827.9900      1.7    124.4880    514.3680  0.0000  PE_10
+pea/pe01/add_0_root_add_512_2         92.3400      0.1     92.3400      0.0000  0.0000  PE_10_DW01_add_0_DW01_add_38
+pea/pe01/add_1_root_add_512_2         87.2100      0.1     87.2100      0.0000  0.0000  PE_10_DW01_add_1_DW01_add_39
+pea/pe01/mult_507                    336.5280      0.3    336.5280      0.0000  0.0000  PE_10_DW_mult_tc_2_DW_mult_tc_32
+pea/pe01/mult_508                    336.5280      0.3    336.5280      0.0000  0.0000  PE_10_DW_mult_tc_1_DW_mult_tc_30
+pea/pe01/mult_509                    336.5280      0.3    336.5280      0.0000  0.0000  PE_10_DW_mult_tc_0_DW_mult_tc_9
+pea/pe02                            1827.9900      1.7    124.4880    514.3680  0.0000  PE_8
+pea/pe02/add_0_root_add_512_2         92.3400      0.1     92.3400      0.0000  0.0000  PE_8_DW01_add_0_DW01_add_34
+pea/pe02/add_1_root_add_512_2         87.2100      0.1     87.2100      0.0000  0.0000  PE_8_DW01_add_1_DW01_add_35
+pea/pe02/mult_507                    336.5280      0.3    336.5280      0.0000  0.0000  PE_8_DW_mult_tc_2_DW_mult_tc_27
+pea/pe02/mult_508                    336.5280      0.3    336.5280      0.0000  0.0000  PE_8_DW_mult_tc_1_DW_mult_tc_24
+pea/pe02/mult_509                    336.5280      0.3    336.5280      0.0000  0.0000  PE_8_DW_mult_tc_0_DW_mult_tc_6
+pea/pe03                            1827.9900      1.7    124.4880    514.3680  0.0000  PE_5
+pea/pe03/add_0_root_add_512_2         92.3400      0.1     92.3400      0.0000  0.0000  PE_5_DW01_add_0_DW01_add_28
+pea/pe03/add_1_root_add_512_2         87.2100      0.1     87.2100      0.0000  0.0000  PE_5_DW01_add_1_DW01_add_29
+pea/pe03/mult_507                    336.5280      0.3    336.5280      0.0000  0.0000  PE_5_DW_mult_tc_2_DW_mult_tc_21
+pea/pe03/mult_508                    336.5280      0.3    336.5280      0.0000  0.0000  PE_5_DW_mult_tc_1_DW_mult_tc_18
+pea/pe03/mult_509                    336.5280      0.3    336.5280      0.0000  0.0000  PE_5_DW_mult_tc_0_DW_mult_tc_3
+pea/pe10                            1827.9900      1.7    124.4880    514.3680  0.0000  PE_9
+pea/pe10/add_0_root_add_512_2         92.3400      0.1     92.3400      0.0000  0.0000  PE_9_DW01_add_0_DW01_add_36
+pea/pe10/add_1_root_add_512_2         87.2100      0.1     87.2100      0.0000  0.0000  PE_9_DW01_add_1_DW01_add_37
+pea/pe10/mult_507                    336.5280      0.3    336.5280      0.0000  0.0000  PE_9_DW_mult_tc_2_DW_mult_tc_33
+pea/pe10/mult_508                    336.5280      0.3    336.5280      0.0000  0.0000  PE_9_DW_mult_tc_1_DW_mult_tc_31
+pea/pe10/mult_509                    336.5280      0.3    336.5280      0.0000  0.0000  PE_9_DW_mult_tc_0_DW_mult_tc_10
+pea/pe11                            1827.9900      1.7    124.4880    514.3680  0.0000  PE_7
+pea/pe11/add_0_root_add_512_2         92.3400      0.1     92.3400      0.0000  0.0000  PE_7_DW01_add_0_DW01_add_32
+pea/pe11/add_1_root_add_512_2         87.2100      0.1     87.2100      0.0000  0.0000  PE_7_DW01_add_1_DW01_add_33
+pea/pe11/mult_507                    336.5280      0.3    336.5280      0.0000  0.0000  PE_7_DW_mult_tc_2_DW_mult_tc_28
+pea/pe11/mult_508                    336.5280      0.3    336.5280      0.0000  0.0000  PE_7_DW_mult_tc_1_DW_mult_tc_25
+pea/pe11/mult_509                    336.5280      0.3    336.5280      0.0000  0.0000  PE_7_DW_mult_tc_0_DW_mult_tc_7
+pea/pe12                            1827.9900      1.7    124.4880    514.3680  0.0000  PE_4
+pea/pe12/add_0_root_add_512_2         92.3400      0.1     92.3400      0.0000  0.0000  PE_4_DW01_add_0_DW01_add_26
+pea/pe12/add_1_root_add_512_2         87.2100      0.1     87.2100      0.0000  0.0000  PE_4_DW01_add_1_DW01_add_27
+pea/pe12/mult_507                    336.5280      0.3    336.5280      0.0000  0.0000  PE_4_DW_mult_tc_2_DW_mult_tc_22
+pea/pe12/mult_508                    336.5280      0.3    336.5280      0.0000  0.0000  PE_4_DW_mult_tc_1_DW_mult_tc_19
+pea/pe12/mult_509                    336.5280      0.3    336.5280      0.0000  0.0000  PE_4_DW_mult_tc_0_DW_mult_tc_4
+pea/pe13                            1827.9900      1.7    124.4880    514.3680  0.0000  PE_2
+pea/pe13/add_0_root_add_512_2         92.3400      0.1     92.3400      0.0000  0.0000  PE_2_DW01_add_0_DW01_add_22
+pea/pe13/add_1_root_add_512_2         87.2100      0.1     87.2100      0.0000  0.0000  PE_2_DW01_add_1_DW01_add_23
+pea/pe13/mult_507                    336.5280      0.3    336.5280      0.0000  0.0000  PE_2_DW_mult_tc_2_DW_mult_tc_16
+pea/pe13/mult_508                    336.5280      0.3    336.5280      0.0000  0.0000  PE_2_DW_mult_tc_1_DW_mult_tc_14
+pea/pe13/mult_509                    336.5280      0.3    336.5280      0.0000  0.0000  PE_2_DW_mult_tc_0_DW_mult_tc_1
+pea/pe20                            1827.9900      1.7    124.4880    514.3680  0.0000  PE_6
+pea/pe20/add_0_root_add_512_2         92.3400      0.1     92.3400      0.0000  0.0000  PE_6_DW01_add_0_DW01_add_30
+pea/pe20/add_1_root_add_512_2         87.2100      0.1     87.2100      0.0000  0.0000  PE_6_DW01_add_1_DW01_add_31
+pea/pe20/mult_507                    336.5280      0.3    336.5280      0.0000  0.0000  PE_6_DW_mult_tc_2_DW_mult_tc_29
+pea/pe20/mult_508                    336.5280      0.3    336.5280      0.0000  0.0000  PE_6_DW_mult_tc_1_DW_mult_tc_26
+pea/pe20/mult_509                    336.5280      0.3    336.5280      0.0000  0.0000  PE_6_DW_mult_tc_0_DW_mult_tc_8
+pea/pe21                            1827.9900      1.7    124.4880    514.3680  0.0000  PE_3
+pea/pe21/add_0_root_add_512_2         92.3400      0.1     92.3400      0.0000  0.0000  PE_3_DW01_add_0_DW01_add_24
+pea/pe21/add_1_root_add_512_2         87.2100      0.1     87.2100      0.0000  0.0000  PE_3_DW01_add_1_DW01_add_25
+pea/pe21/mult_507                    336.5280      0.3    336.5280      0.0000  0.0000  PE_3_DW_mult_tc_2_DW_mult_tc_23
+pea/pe21/mult_508                    336.5280      0.3    336.5280      0.0000  0.0000  PE_3_DW_mult_tc_1_DW_mult_tc_20
+pea/pe21/mult_509                    336.5280      0.3    336.5280      0.0000  0.0000  PE_3_DW_mult_tc_0_DW_mult_tc_5
+pea/pe22                            1827.9900      1.7    124.4880    514.3680  0.0000  PE_1
+pea/pe22/add_0_root_add_512_2         92.3400      0.1     92.3400      0.0000  0.0000  PE_1_DW01_add_0_DW01_add_20
+pea/pe22/add_1_root_add_512_2         87.2100      0.1     87.2100      0.0000  0.0000  PE_1_DW01_add_1_DW01_add_21
+pea/pe22/mult_507                    336.5280      0.3    336.5280      0.0000  0.0000  PE_1_DW_mult_tc_2_DW_mult_tc_17
+pea/pe22/mult_508                    336.5280      0.3    336.5280      0.0000  0.0000  PE_1_DW_mult_tc_1_DW_mult_tc_15
+pea/pe22/mult_509                    336.5280      0.3    336.5280      0.0000  0.0000  PE_1_DW_mult_tc_0_DW_mult_tc_2
+pea/pe23                            1821.1500      1.7    117.6480    514.3680  0.0000  PE_0
+pea/pe23/add_0_root_add_512_2         92.3400      0.1     92.3400      0.0000  0.0000  PE_0_DW01_add_0_DW01_add_18
+pea/pe23/add_1_root_add_512_2         87.2100      0.1     87.2100      0.0000  0.0000  PE_0_DW01_add_1_DW01_add_19
+pea/pe23/mult_507                    336.5280      0.3    336.5280      0.0000  0.0000  PE_0_DW_mult_tc_2_DW_mult_tc_13
+pea/pe23/mult_508                    336.5280      0.3    336.5280      0.0000  0.0000  PE_0_DW_mult_tc_1_DW_mult_tc_12
+pea/pe23/mult_509                    336.5280      0.3    336.5280      0.0000  0.0000  PE_0_DW_mult_tc_0
+--------------------------------  -----------  -------  ----------  ----------  ------  --------------------------------
+Total                                                   84831.8536  23209.1465  0.0000
+
+1
