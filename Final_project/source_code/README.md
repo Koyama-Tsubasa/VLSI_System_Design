@@ -5,4 +5,4 @@
 and [**patterns**](https://github.com/Koyama-Tsubasa/VLSI_System_Design/tree/main/Final_project/source_code/patterns).  
 * The folder **patterns** includes the pattern used in **DnCNN_Accelerator** and **ESP**.
 * If you want to run the whole process from training model to ESP integration, please run in the following order.
-> **model_Python** -> **DnCNN_Accelerator** -> **ESP**
+>> **model_Python** -> **DnCNN_Accelerator** -> **ESP**
