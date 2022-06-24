@@ -1,0 +1,65 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : DnCNN
+Version: R-2020.09
+Date   : Thu Jun 23 15:39:47 2022
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: PVT_1P08V_125C   Library: slow_vdd1v2
+Wire Load Model Mode: top
+
+  Startpoint: scale_C2[24]
+              (input port clocked by clk)
+  Endpoint: write_row2_reg[0][31]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  input external delay                                  1.5800     1.5800 f
+  scale_C2[24] (in)                                     0.0017     1.5817 f
+  U8951/Y (AO22XL)                                      0.0834     1.6650 f
+  U5312/Y (OR4XL)                                       0.1455     1.8106 f
+  U5283/Y (BUFX2)                                       0.0591     1.8697 f
+  mult_348_S4/b[24] (DnCNN_DW_mult_uns_44)              0.0000     1.8697 f
+  mult_348_S4/U1495/Y (XNOR2X1)                         0.0970     1.9667 r
+  mult_348_S4/U1573/Y (OAI22X2)                         0.0543     2.0210 f
+  mult_348_S4/U1572/S (ADDFXL)                          0.1565     2.1775 r
+  mult_348_S4/U1606/CO (ADDFXL)                         0.0964     2.2738 r
+  mult_348_S4/U1382/S (ADDFXL)                          0.1396     2.4134 r
+  mult_348_S4/U1381/S (ADDFHXL)                         0.1556     2.5690 f
+  mult_348_S4/U1345/S (ADDFXL)                          0.1481     2.7171 r
+  mult_348_S4/U1400/Y (NOR2X2)                          0.0256     2.7428 f
+  mult_348_S4/U1654/Y (NOR2XL)                          0.0461     2.7889 r
+  mult_348_S4/U1752/Y (NAND2X1)                         0.0577     2.8466 f
+  mult_348_S4/U1618/Y (OAI21X2)                         0.0531     2.8997 r
+  mult_348_S4/U1694/Y (AOI21X1)                         0.0551     2.9548 f
+  mult_348_S4/U2102/Y (XOR2XL)                          0.0696     3.0244 r
+  mult_348_S4/product[31] (DnCNN_DW_mult_uns_44)        0.0000     3.0244 r
+  U8801/Y (AOI22X1)                                     0.0298     3.0542 f
+  U5302/Y (NAND2BXL)                                    0.0425     3.0967 r
+  write_row2_reg[0][31]/D (DFFRXL)                      0.0000     3.0967 r
+  data arrival time                                                3.0967
+
+  clock clk (rise edge)                                 3.1600     3.1600
+  clock network delay (ideal)                           0.0000     3.1600
+  write_row2_reg[0][31]/CK (DFFRXL)                     0.0000     3.1600 r
+  library setup time                                   -0.0633     3.0967
+  data required time                                               3.0967
+  --------------------------------------------------------------------------
+  data required time                                               3.0967
+  data arrival time                                               -3.0967
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.0000
+
+
+1

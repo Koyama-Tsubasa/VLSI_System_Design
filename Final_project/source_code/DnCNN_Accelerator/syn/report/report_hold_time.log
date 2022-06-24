@@ -1,0 +1,149 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 4
+Design : DnCNN
+Version: R-2020.09
+Date   : Thu Jun 23 15:39:47 2022
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: PVT_1P08V_125C   Library: slow_vdd1v2
+Wire Load Model Mode: top
+
+  Startpoint: pea/pe00/product2_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: pea/pe00/psum_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  pea/pe00/product2_reg[0]/CK (DFFQXL)                    0.00 #     0.00 r
+  pea/pe00/product2_reg[0]/Q (DFFQXL)                     0.11       0.11 f
+  pea/pe00/add_0_root_add_512_2/A[0] (PE_11_DW01_add_0_DW01_add_40)
+                                                          0.00       0.11 f
+  pea/pe00/add_0_root_add_512_2/U4/Y (XOR2XL)             0.06       0.17 f
+  pea/pe00/add_0_root_add_512_2/SUM[0] (PE_11_DW01_add_0_DW01_add_40)
+                                                          0.00       0.17 f
+  pea/pe00/psum_reg[0]/RN (DFFTRXL)                       0.00       0.17 f
+  data arrival time                                                  0.17
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  pea/pe00/psum_reg[0]/CK (DFFTRXL)                       0.00       0.00 r
+  library hold time                                      -0.01      -0.01
+  data required time                                                -0.01
+  --------------------------------------------------------------------------
+  data required time                                                -0.01
+  data arrival time                                                 -0.17
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.18
+
+
+  Startpoint: pea/pe01/product2_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: pea/pe01/psum_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  pea/pe01/product2_reg[0]/CK (DFFQXL)                    0.00 #     0.00 r
+  pea/pe01/product2_reg[0]/Q (DFFQXL)                     0.11       0.11 f
+  pea/pe01/add_0_root_add_512_2/A[0] (PE_10_DW01_add_0_DW01_add_38)
+                                                          0.00       0.11 f
+  pea/pe01/add_0_root_add_512_2/U4/Y (XOR2XL)             0.06       0.17 f
+  pea/pe01/add_0_root_add_512_2/SUM[0] (PE_10_DW01_add_0_DW01_add_38)
+                                                          0.00       0.17 f
+  pea/pe01/psum_reg[0]/RN (DFFTRXL)                       0.00       0.17 f
+  data arrival time                                                  0.17
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  pea/pe01/psum_reg[0]/CK (DFFTRXL)                       0.00       0.00 r
+  library hold time                                      -0.01      -0.01
+  data required time                                                -0.01
+  --------------------------------------------------------------------------
+  data required time                                                -0.01
+  data arrival time                                                 -0.17
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.18
+
+
+  Startpoint: pea/pe02/product2_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: pea/pe02/psum_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  pea/pe02/product2_reg[0]/CK (DFFQXL)                    0.00 #     0.00 r
+  pea/pe02/product2_reg[0]/Q (DFFQXL)                     0.11       0.11 f
+  pea/pe02/add_0_root_add_512_2/A[0] (PE_8_DW01_add_0_DW01_add_34)
+                                                          0.00       0.11 f
+  pea/pe02/add_0_root_add_512_2/U4/Y (XOR2XL)             0.06       0.17 f
+  pea/pe02/add_0_root_add_512_2/SUM[0] (PE_8_DW01_add_0_DW01_add_34)
+                                                          0.00       0.17 f
+  pea/pe02/psum_reg[0]/RN (DFFTRXL)                       0.00       0.17 f
+  data arrival time                                                  0.17
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  pea/pe02/psum_reg[0]/CK (DFFTRXL)                       0.00       0.00 r
+  library hold time                                      -0.01      -0.01
+  data required time                                                -0.01
+  --------------------------------------------------------------------------
+  data required time                                                -0.01
+  data arrival time                                                 -0.17
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.18
+
+
+  Startpoint: pea/pe03/product2_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: pea/pe03/psum_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  pea/pe03/product2_reg[0]/CK (DFFQXL)                    0.00 #     0.00 r
+  pea/pe03/product2_reg[0]/Q (DFFQXL)                     0.11       0.11 f
+  pea/pe03/add_0_root_add_512_2/A[0] (PE_5_DW01_add_0_DW01_add_28)
+                                                          0.00       0.11 f
+  pea/pe03/add_0_root_add_512_2/U4/Y (XOR2XL)             0.06       0.17 f
+  pea/pe03/add_0_root_add_512_2/SUM[0] (PE_5_DW01_add_0_DW01_add_28)
+                                                          0.00       0.17 f
+  pea/pe03/psum_reg[0]/RN (DFFTRXL)                       0.00       0.17 f
+  data arrival time                                                  0.17
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  pea/pe03/psum_reg[0]/CK (DFFTRXL)                       0.00       0.00 r
+  library hold time                                      -0.01      -0.01
+  data required time                                                -0.01
+  --------------------------------------------------------------------------
+  data required time                                                -0.01
+  data arrival time                                                 -0.17
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.18
+
+
+1
