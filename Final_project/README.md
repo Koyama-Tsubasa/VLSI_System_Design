@@ -6,7 +6,7 @@ This technique plays an important role in a wide range of applications such as i
 
 ---
 * There are four directories, 
-**model_python**, 
+[**model_python**](https://github.com/Koyama-Tsubasa/VLSI_System_Design/tree/main/Final_project/model_python), 
 [**DnCNN_Accelerator**](https://github.com/Koyama-Tsubasa/VLSI_System_Design/tree/main/Final_project/DnCNN_Accelerator), 
 **ESP**, 
 [**patterns**](https://github.com/Koyama-Tsubasa/VLSI_System_Design/tree/main/Final_project/patterns), 
