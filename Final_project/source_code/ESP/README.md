@@ -4,11 +4,11 @@
 > * accelerator name: DnCNN
 > * unique accelerator id: 0AC
 > * accelerator register names:
-> > -Conv1_scale
-> > -Conv2_scale
-> > -Conv3_scale
-> > -Conv4_scale
-> > -Conv5_scale
-> > -Conv6_scale
+> > -Conv1_scale  
+> > -Conv2_scale  
+> > -Conv3_scale  
+> > -Conv4_scale  
+> > -Conv5_scale  
+> > -Conv6_scale  
 > > -Conv7_scale  
 * After setting up the working folder, you can replace the following directories to what we provided.
