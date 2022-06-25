@@ -10,4 +10,4 @@
 > 3. cd sim/  
 >    make syn  
 * The reports will be generated as same as [hw3_spec](https://github.com/Koyama-Tsubasa/VLSI_System_Design/blob/main/Final_project/specs/hw3_spec_v5.pdf).
-* If you don't want to run, you can just look at the report already generated.
+* If you don't want to run, you can just look at the [report](https://github.com/Koyama-Tsubasa/VLSI_System_Design/tree/main/Final_project/source_code/DnCNN_Accelerator/syn/report) already generated.
